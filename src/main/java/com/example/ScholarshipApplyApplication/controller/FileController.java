@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api/files")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://scholarship-management-mu.vercel.app/")
 
 public class FileController {
 
