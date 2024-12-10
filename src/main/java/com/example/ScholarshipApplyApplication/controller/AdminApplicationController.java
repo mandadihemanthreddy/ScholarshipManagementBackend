@@ -14,7 +14,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/scholarship")
-@CrossOrigin(origins = "http://localhost:3000") // Allow frontend access
+@CrossOrigin(origins = "https://scholarship-management-mu.vercel.app/") // Allow frontend access
 public class AdminApplicationController {
 
     @Autowired
