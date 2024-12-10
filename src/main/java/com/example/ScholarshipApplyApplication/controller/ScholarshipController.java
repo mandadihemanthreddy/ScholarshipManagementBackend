@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://scholarship-management-mu.vercel.app/")
 @RestController
 @RequestMapping("/api/admin/scholarships")
 public class ScholarshipController {
